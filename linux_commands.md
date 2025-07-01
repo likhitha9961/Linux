@@ -35,18 +35,30 @@ Ctrl + L
 2️⃣ touch Command — Create Empty Files + Manage Timestamps
 
 👉 Understanding Timestamps:
-Access Time (atime): When the file was last opened or read.
+| Timestamp               | Meaning                                                             |
+| ----------------------- | ------------------------------------------------------------------- |
+| **Access Time (atime)** | When the file was last **opened or read**.                          |
+| **Modify Time (mtime)** | When the file’s **content was last changed**.                       |
+| **Change Time (ctime)** | When the file’s **metadata changed** (like permissions, ownership). |
 
-Modify Time (mtime): When the file’s content was last changed.
-
-Change Time (ctime): When the file's metadata (like permissions or ownership) changed.
 
 👉 Important touch Commands:
-Command	Purpose
-touch file1	Create an empty file named file1.
-touch file1 file2 file3	Create multiple empty files.
-touch file{1..100}	Create 100 files quickly (file1, file2, ..., file100).
-stat file1	Check timestamps (access, modify, change) of file1.
+| Command                       | Purpose                                                          |
+| ----------------------------- | ---------------------------------------------------------------- |
+| **`touch file1`**             | Create an **empty file** named `file1`.                          |
+| **`touch file1 file2 file3`** | Create **multiple empty files** at once.                         |
+| **`touch file{1..100}`**      | Create **100 files quickly** → `file1`, `file2`, ..., `file100`. |
+| **`stat file1`**              | Check **timestamps** (Access, Modify, Change) of `file1`.        |
+
+🎯 Tip:
+The touch command is not only for creating files but also updates timestamps if the file already exists.
+
+✅ Example Usage:
+touch notes.txt
+touch file1 file2 file3
+touch file{1..50}
+stat file1
+
 
 3️⃣ vi or vim Editor — Create and Edit Files
 🔸 Uses:
