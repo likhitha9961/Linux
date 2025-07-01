@@ -22,6 +22,12 @@ A comprehensive hands-on Linux commands guide for beginners and professionals. C
 ## 🔗 How This Helps
 This repo helps developers, students, and anyone preparing for DevOps, Cloud, or Full Stack roles to master Linux commands practically.
 
+## 🔗 **Blog Based on This Repo**
+
+> 👉 Read my complete blog on Hashnode:  
+
+**[Mastering Linux — My Hands-on Learning Journey](https://master-linux-with-hands-on-commands.hashnode.dev/mastering-linux-my-hands-on-learning-journey)**
+
 ## ⭐ How to Use
 Clone this repo and use it as your Linux command cheat sheet or reference during practice.
 
