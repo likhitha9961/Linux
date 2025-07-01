@@ -57,6 +57,7 @@ Example: If permission is set to 000, it means no one has any permission, and yo
 | Command   | Purpose                                  |
 | --------- | ---------------------------------------- |
 | `du -sh`  | Show the **size of the current folder**. |
+| `du -sh *`| Show the ** size of all dir & files**.   |
 | `df -h`   | Check **disk size and free space**.      |
 | `free -m` | Check **system memory (RAM)** usage.     |
 
