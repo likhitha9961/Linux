@@ -101,7 +101,9 @@ Write or edit content.
 Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 
 ✅ Directory (Folder) Commands
+
    👉 Basic Directory Management:
+
    | Command                   | Purpose                                                |
 | ------------------------- | ------------------------------------------------------ |
 | `mkdir dir1`              | Create a directory named dir1.                         |
@@ -113,6 +115,7 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 | `cd`                      | Return to home directory.                              |
 
 👉 Hidden Files and Directories:
+
 | Command          | Purpose                                   |
 | ---------------- | ----------------------------------------- |
 | `ls -a`          | Show hidden files and directories.        |
@@ -121,6 +124,7 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 
 
 ✅ File and Directory Listing Commands
+
 | Command                | Purpose                                               |
 | ---------------------- | ----------------------------------------------------- |
 | `ls`                   | List all files and directories.                       |
@@ -130,6 +134,7 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 | `ls -ltr` or `ls -lrt` | Sort by modified time (latest at bottom).             |
 
 ✅ Copy, Move, Delete Files and Directories
+
 | Command                           | Purpose                                  |
 | --------------------------------- | ---------------------------------------- |
 | `cp source_file destination_file` | Copy file. Example: `cp f1 f2`           |
@@ -139,6 +144,7 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 | `rmdir dirname`                   | Delete an empty directory.               |
 
 ✅ 💻 Hands-On Practice Summary (All at Once)
+
 # Clear screen
 clear
 
