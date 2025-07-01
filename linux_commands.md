@@ -54,6 +54,7 @@ Ctrl + L
 The touch command is not only for creating files but also updates timestamps if the file already exists.
 
 ✅ Example Usage:
+
 touch notes.txt
 
 touch file1 file2 file3
