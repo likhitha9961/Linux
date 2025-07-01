@@ -100,6 +100,7 @@ Write or edit content.
 
 Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 
+
 ✅ Directory (Folder) Commands
 
    👉 Basic Directory Management:
@@ -142,4 +143,62 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 | `rm -rf filename`                 | Delete a file.                           |
 | `rm -rf dirname`                  | Delete a directory with all its content. |
 | `rmdir dirname`                   | Delete an empty directory.               |
+
+📜 History Command — View Command History in Linux
+
+🔸 Purpose:
+
+When you type the command:
+
+history
+It displays a list of all the commands you have previously used in the terminal, along with their command numbers.
+
+This helps you:
+
+Recall what commands you’ve run.
+
+Reuse commands without typing them again.
+
+Track your command history during your Linux session.
+
+🔥 Example Output:
+
+1  mkdir dir1
+
+2  cd dir1
+
+3  touch file1
+
+4  ls -l
+
+5  history
+
+→ This shows the list of commands you have executed in the order they were run.
+
+🧠 Tip — Run Previous Commands Quickly:
+
+Run any command from history by typing:
+
+!<command_number>
+
+Example:
+
+!3
+→ This will run command number 3 (touch file1).
+
+✅ Bonus — Clear Your History:
+
+To clear command history:
+
+history -c
+
+→ This will clear your terminal’s current session history.
+
+🔥 Summary:
+
+history → View previously used commands.
+
+!number → Run a command from history.
+
+history -c → Clear history.
 
