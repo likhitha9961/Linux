@@ -151,6 +151,7 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 When you type the command:
 
 history
+
 It displays a list of all the commands you have previously used in the terminal, along with their command numbers.
 
 This helps you:
