@@ -174,6 +174,12 @@ Track your command history during your Linux session.
 
 5  history
 
+6 To copy history to file :
+
+ history > file1
+
+ cat file1
+ 
 → This shows the list of commands you have executed in the order they were run.
 
 🧠 Tip — Run Previous Commands Quickly:
