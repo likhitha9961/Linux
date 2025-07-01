@@ -55,8 +55,11 @@ The touch command is not only for creating files but also updates timestamps if 
 
 ✅ Example Usage:
 touch notes.txt
+
 touch file1 file2 file3
+
 touch file{1..50}
+
 stat file1
 
 
