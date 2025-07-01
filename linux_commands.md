@@ -33,11 +33,10 @@ or
 Ctrl + L
 
 2️⃣ touch Command — Create Empty Files + Manage Timestamps
+
 🔸 Uses:
 Create empty files.
-
 Create multiple files at once.
-
 Update file timestamps.
 
 👉 Understanding Timestamps:
