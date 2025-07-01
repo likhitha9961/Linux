@@ -65,13 +65,19 @@ stat file1
 
 
 3️⃣ vi or vim Editor — Create and Edit Files
+
 🔸 Uses:
+
 Edit or write content inside a file.
+
 Delete or modify content.
 
 👉 Basic vi Workflow:
+
 Open file: vi file1
+
 Press i → Start writing or editing (Insert mode).
+
 After editing, press Esc to exit Insert mode.
 
 👉 Save and Exit Commands:
@@ -83,11 +89,15 @@ After editing, press Esc to exit Insert mode.
 | `:q!`   | Force Quit without saving |
 
 4️⃣ nano Editor — Simple Text Editor
+
 Easier than vi.
 
 👉 Basic nano Workflow:
+
 Open file:nano file1
+
 Write or edit content.
+
 Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 
 ✅ Directory (Folder) Commands
