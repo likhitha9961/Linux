@@ -146,71 +146,107 @@ Press Ctrl + X → then Y (Yes) → then Enter to save and exit.
 ✅ 💻 Hands-On Practice Summary (All at Once)
 
 # Clear screen
+
 clear
 
 # Create file and write contents
-cat > file1
+
+cat > file1 
 # (type content)
-# Ctrl + D
+
+
+
+
+# Ctrl + D (exit)
 
 # Append content
+
 cat >> file1
+
 # (type more)
+
 # Ctrl + D
 
 # View content
+
 cat file1
 
 # Create multiple files
+
 touch f1 f2 f3 f4
 
 # Create 100 files
+
 touch file{1..100}
 
 # Check timestamps
+
 stat f1
 
 # Concatenate files
+
 cat file1 file2 > file3
 
 # Use vi editor
+
 vi file1
+
 # Press i → edit → Esc → :wq
 
 # Use nano editor
+
 nano file1
+
 # Ctrl + X → Y → Enter
 
 # Create directories
+
 mkdir d1
+
 mkdir -p dirA/dirB/dirC
 
 # Check path
+
 pwd
 
 # Move between folders
+
 cd d1
+
 cd ..
+
 cd ../..
+
 cd
 
 # View hidden files
+
 ls -a
 
 # Create hidden files
+
 touch .file007
+
 mkdir .dirxyz
 
 # File listing
+
 ls -l
+
 ls -lt
+
 ls -ltr
 
 # Copy, move, delete
+
 cp f1 f2
+
 mv f2 f1
+
 rm -rf f1
+
 rm -rf d1
+
 rmdir d2
 
 
