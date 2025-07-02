@@ -208,4 +208,3 @@ history → View previously used commands.
 !number → Run a command from history.
 
 history -c → Clear history.
-

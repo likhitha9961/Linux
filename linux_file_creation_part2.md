@@ -148,4 +148,3 @@ ssh username@server2_ip_address
 | Generate SSH keys                    | `ssh-keygen`                      |
 | Copy SSH keys to another server      | `ssh-copy-id username@server2_ip` |
 | Connect to another server via SSH    | `ssh username@server2_ip`         |
-
