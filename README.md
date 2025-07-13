@@ -34,6 +34,6 @@ Clone this repo and use it as your Linux command cheat sheet or reference during
 ## ✨ Author
 - **Likhitha D**
 - GitHub: [@likhitha9961](https://github.com/likhitha9961)
-- LinkedIn: (Add your LinkedIn link)
+- LinkedIn: (https://www.linkedin.com/in/likhitha5)
 
 ---
